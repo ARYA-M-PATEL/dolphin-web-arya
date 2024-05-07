@@ -1,0 +1,89 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="div">
+        <div class="image">
+            <img src="./Images/Products/testing-2.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    .div{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-left: 40px;
+    }
+    .image{
+        
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+  z-index: 50;
+}
+.image::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 80%;
+  height: 80%;
+  background-color: transparent;
+  z-index: 50;
+  border: 5px solid green;
+
+}
+</style> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+    </div>
+</body>
+<style>
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgb(4, 75, 97);
+}
+.box{
+    /* position: relative; */
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+</style>
+</html>
